@@ -1,0 +1,477 @@
+/* Base styles for all devices */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  overflow: hidden; /* Clear floats */
+}
+
+/* Styles for each section */
+.section {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  float: left; /* Float sections to the left */
+  width: 30%; /* Each section takes up 30% of the container */
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .section {
+      width: 100%; /* Each section takes full width */
+      float: none; /* Remove float for mobile */
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 991px) {
+  .section {
+      width: 48%; /* Two sections per row */
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+  .section {
+      width: 30%; /* Three sections per row */
+  }
+}
+
+
+/* Base styles for all devices */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allows sections to wrap on smaller screens */
+  justify-content: space-around; /* Space out sections */
+}
+
+/* Styles for each section */
+.section {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  flex: 1; /* Allows sections to grow equally */
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .section {
+      flex: 100%; /* Each section takes full width */
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 991px) {
+  .section {
+      flex: 48%; /* Two sections per row */
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+  .section {
+      flex: 30%; /* Three sections per row */
+  }
+}
+
+
+
+/* Base styles for all devices */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  overflow: hidden; /* Clear floats */
+}
+
+/* Styles for each section */
+.section {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  float: left; /* Float sections to the left */
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .section {
+      width: 100%; /* Each section takes full width */
+      float: none; /* Remove float for mobile */
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 991px) {
+  .section {
+      width: 48%; /* Each of the first two sections takes up 48% */
+  }
+  #section3 {
+      width: 100%; /* The third section takes full width */
+      float: none; /* Remove float for the third section */
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+  .section {
+      width: 30%; /* Three sections per row */
+  }
+}
+
+/* Base styles for all devices */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  overflow: hidden; /* Clear floats */
+}
+
+/* Styles for each section */
+.section {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  float: left; /* Float sections to the left */
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .section {
+      width: 100%; /* Each section takes full width */
+      float: none; /* Remove float for mobile */
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 991px) {
+  .section {
+      width: 48%; /* Each of the first two sections takes up 48% */
+  }
+  #section3 {
+      width: 100%; /* The third section takes full width */
+      float: none; /* Remove float for the third section */
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+  .section {
+      width: 30%; /* Three sections per row */
+  }
+}
+
+
+
+
+/* Base styles for all devices */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  overflow: hidden; /* Clear floats */
+}
+
+/* Styles for each section */
+.section {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  position: relative; /* Set position to relative for absolute positioning of title */
+}
+
+/* Title styles */
+.title {
+  position: absolute; /* Position the title absolutely */
+  top: 10px; /* Offset from the top */
+  right: 10px; /* Offset from the right */
+  background-color: rgba(255, 255, 255, 0.8); /* Optional: background for better visibility */
+  padding: 5px; /* Padding around the title */
+  border-radius: 5px; /* Rounded corners for the title */
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .section {
+      width: 100%; /* Each section takes full width */
+      float: none; /* Remove float for mobile */
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 991px) {
+  .section {
+      width: 48%; /* Each of the first two sections takes up 48% */
+  }
+  #section3 {
+      width: 100%; /* The third section takes full width */
+      float: none; /* Remove float for the third section */
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+  .section {
+      width: 30%; /* Three sections per row */
+  }
+}
+
+/* Base styles for all devices */
+* {
+  box-sizing: border-box; /* Use border-box for all elements */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  padding: 20px; /* Add padding to the container for spacing from the browser edges */
+}
+
+/* Styles for each section */
+.section {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 40px 20px; /* Add padding to the section for spacing inside */
+  margin: 20px 0; /* Vertical spacing between sections */
+  position: relative; /* Set position to relative for absolute positioning of title */
+}
+
+/* Title styles */
+.title {
+  position: absolute; /* Position the title absolutely */
+  top: 10px; /* Offset from the top */
+  right: 10px; /* Offset from the right */
+  background-color: rgba(255, 255, 255, 0.8); /* Optional: background for better visibility */
+  padding: 5px; /* Padding around the title */
+  border-radius: 5px; /* Rounded corners for the title */
+}
+
+/* Dummy text styles */
+.section p {
+  margin-top: 50px; /* Push the dummy text down to avoid overlap with the title */
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .section {
+      width: 100%; /* Each section takes full width */
+      float: none; /* Remove float for mobile */
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 991px) {
+  .section {
+      width: 48%; /* Each of the first two sections takes up 48% */
+  }
+  #section3 {
+      width: 100%; /* The third section takes full width */
+      float: none; /* Remove float for the third section */
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+  .section {
+      width: 30%; /* Three sections per row */
+  }
+}
+
+/* Base styles for all devices */
+* {
+  box-sizing: border-box; /* Use border-box for all elements */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  padding: 20px; /* Add padding to the container for spacing from the browser edges */
+}
+
+/* Styles for each section */
+.section {
+  background-color: #e0f7fa; /* Light cyan background for the section */
+  border: 1px solid black; /* Black border */
+  padding: 40px 20px; /* Add padding to the section for spacing inside */
+  margin: 20px 0; /* Vertical spacing between sections */
+  position: relative; /* Set position to relative for absolute positioning of title */
+}
+
+/* Title styles */
+.title {
+  background-color: #ffccbc; /* Light orange background for the title */
+  color: #000; /* Black text color for readability */
+  border: 1px solid black; /* Black border */
+  padding: 10px; /* Padding around the title */
+  border-radius: 5px; /* Rounded corners for the title */
+}
+
+/* Dummy text styles */
+.section p {
+  margin-top: 50px; /* Push the dummy text down to avoid overlap with the title */
+  color: #333; /* Dark gray text color for better readability */
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .section {
+      width: 100%; /* Each section takes full width */
+      float: none; /* Remove float for mobile */
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 991px) {
+  .section {
+      width: 48%; /* Each of the first two sections takes up 48% */
+  }
+  #section3 {
+      width: 100%; /* The third section takes full width */
+      float: none; /* Remove float for the third section */
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+  .section {
+      width: 30%; /* Three sections per row */
+  }
+}
+
+/* Base styles for all devices */
+* {
+  box-sizing: border-box; /* Use border-box for all elements */
+}
+
+body {
+  font-family: 'Arial', sans-serif; /* Set a default font-family for the entire page */
+  margin: 0;
+  padding: 0;
+  font-size: 16px; /* Set a base font size for the dummy text */
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 28px; /* 75% larger than the base font size (16px * 1.75) */
+}
+
+.container {
+  padding: 20px; /* Add padding to the container for spacing from the browser edges */
+}
+
+/* Styles for each section */
+.section {
+  background-color: #e0f7fa; /* Light cyan background for the section */
+  border: 1px solid black; /* Black border */
+  padding: 40px 20px; /* Add padding to the section for spacing inside */
+  margin: 20px 0; /* Vertical spacing between sections */
+  position: relative; /* Set position to relative for absolute positioning of title */
+}
+
+/* Title styles */
+.title {
+  background-color: #ffccbc; /* Light orange background for the title */
+  color: #000; /* Black text color for readability */
+  border: 1px solid black; /* Black border */
+  padding: 10px; /* Padding around the title */
+  border-radius: 5px; /* Rounded corners for the title */
+  font-size: 20px; /* 25% larger than the base font size (16px * 1.25) */
+}
+
+/* Dummy text styles */
+.section p {
+  margin-top: 50px; /* Push the dummy text down to avoid overlap with the title */
+  color: #333; /* Dark gray text color for better readability */
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .section {
+      width: 100%; /* Each section takes full width */
+      float: none; /* Remove float for mobile */
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 991px) {
+  .section {
+      width: 48%; /* Each of the first two sections takes up 48% */
+  }
+  #section3 {
+      width: 100%; /* The third section takes full width */
+      float: none; /* Remove float for the third section */
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+  .section {
+      width: 30%; /* Three sections per row */
+  }
+}
